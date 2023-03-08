@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link ref="stylesheet" href="style.css">
+
+
+
+  <style>
+h1{
+    color:#ff0000;
+    background-color:black;rel="sylesheet"
+    padding: 15px 20px 10px 20px;
+    tranform: rotate(0deg)
+    transform-origin: 2ex 1ex;
+    transition: transform 1s;
+}
+
+h1:hover{
+    
+}
+
+{
+    border: solid #00ffff 10px
+}
+
+.person1{
+    color:#ffff00;
+}
+
+.person2{
+    padding: 5px
+}
+
+.redColor .yellowColor { color: orange;}
+.yellowColor { color: yellow; }
+.redColor { color: red; }
+.boldFont {   font-weight: bold; }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.container > div {
+    flex: grow 1;
+    border: dashed 0.5ex;
+}
+
+
+#fix-top{
+    position: fixed;
+    top: 0px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    font-size: 5ex;
+}
+
+#world{
+    color:white;
+    Padding:10vw;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', e => {
+        let el = document.querySelector("#world");
+        let color = '#'+Math.floor(Math.random()*16777215).toString(16);	
+        el.textContent = color;
+        el.style.backgroundColor = color;
+    
+    });
+    
+    console.log("Hello World");
+    window.alert("hellor World");
+
+
+7
+
+
+  </script>
+</head>
+
+
+<div id="fix-top">Menu Line</div>
+<h1>Lorem Ipsum</h1>
+<h2>What is Lorem Ipsum?</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+<body>
+    <div class="container">
+        <div class="item">Once upton a time </div>
+        <div class="item">Second time in timeline</div>
+</div>
+    
+ 
+<div id="fix-top">Menu Line</div>
+
+
+<div id="world">Hello World</div>
+
+
+  <h1>Little Red Riding Hood</h1> 
+  <h2 class="person">Suprise</h2>
+  <p>Once upon a time</p>
+  <img src="" alt="women with a dog"/>
+ 
+  <p>I am p, a paragraph</p>
+ <div>hello I am div, a grouper</div>
+ 
+ 
+
+ <p class="person1">shopping list:</p>
+ <ul>
+    <li>bread</li>
+    <li>house</li>
+</ul>
+<br>
+
+<div class="person2">Plants</div>
+<div class="person2">grow</div>
+<div class="person2">slowly</div>
+<br>
+
+<div class="redColor secondClass">
+    <div class="yellowColor">Hello</div>
+    <div class="boldFont">World</div>
+  </div>
+  
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Instrument</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Raum 1</td>
+            <td>raum 2</td>
+            <td>Raum 3</td>
+        </tr>
+        <tr>
+            <td>Raum 1</td>
+            <td>Raum 2</td>
+            <td>Raum 3</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
